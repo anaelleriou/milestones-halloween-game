@@ -1,0 +1,33 @@
+// MODIFIEZ CE FICHIER pour les textes, dates, couleurs et énigmes.
+window.GAME_CONFIG = {
+  supabase: {
+    url: "https://gsxmekrgomdgjjoaqzti.supabase.co",
+    anonKey: "sb_publishable_3zqiMTveGwi7ktQgdB7orA_x-D2L6UR"
+  },
+  site: {
+    title: "Le Mystère du 2 Novembre",
+    subtitle: "Une énigme par jour. Une semaine pour comprendre.",
+    startDate: "2026-10-09T08:00:00+02:00",
+    revealDate: "2026-10-16T17:00:00+02:00",
+    primary: "#ff8a1f",
+    secondary: "#6d23ec",
+    accent: "#e43581",
+    background: "#09070d",
+    revealMessage: "La réponse était : Día de los Muertos."
+  },
+  clues: [
+    { date: "2026-10-09", text: "Ce qui disparaît du regard ne disparaît pas toujours du monde." },
+    { date: "2026-10-10", text: "Les morts sont parfois plus présents que les vivants." },
+    { date: "2026-10-11", text: "Les squelettes dansent dans la nuit." },
+    { date: "2026-10-12", text: "Le orange une belle couleur." },
+    { date: "2026-10-13", text: "Les fantômes viennent nous hanter" },
+    { date: "2026-10-14", text: "La frontière est plus fine lorsque novembre commence." },
+    { date: "2026-10-15", text: "La réponse est dans la date." }
+  ],
+  labels: [
+    { min: 100, label: "Réponse trouvée" }, { min: 95, label: "Fusion" },
+    { min: 85, label: "Brûlant" }, { min: 70, label: "Très chaud" },
+    { min: 50, label: "Chaud" }, { min: 30, label: "Tiède" },
+    { min: 15, label: "Frais" }, { min: 0, label: "Glacial" }
+  ]
+};

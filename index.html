@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Le Mystère du 2 Novembre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <nav><span class="brand">Milestone <b>Halloween Party</b></span><span class="pill" id="status">Chargement…</span></nav>
+    <header>
+      <div class="eyebrow">Une énigme par jour · 7 jours</div>
+      <h1 id="title">Le Mystère du<br>2 Novembre</h1>
+      <p id="subtitle"></p>
+      <div class="count">
+        <div><strong id="dd">00</strong><small>JOURS</small></div><div><strong id="hh">00</strong><small>HEURES</small></div><div><strong id="mm">00</strong><small>MINUTES</small></div><div><strong id="ss">00</strong><small>SECONDES</small></div>
+      </div>
+    </header>
+    <main class="layout">
+      <section class="card"><div class="head"><b>Carte du jour</b><span class="tag" id="clueNo"></span></div><div class="scratchbox"><div class="scratch"><div class="under"><blockquote id="clue"></blockquote></div><canvas id="scratch"></canvas><div class="hint" id="hint">Grattez ici</div></div><div class="archive" id="archive"></div></div></section>
+      <aside class="side">
+        <section class="card pad"><h2>Votre proposition</h2><p>Une proposition par jour et par nom ou pseudo.</p><input class="field" id="name" placeholder="Votre nom complet ou pseudo" autocomplete="name" required><input class="field" id="word" placeholder="Votre proposition" required><button id="submit" disabled>Tester la proximité</button><div class="result" id="result"><strong id="degree"></strong><div id="heat"></div><div class="thermo"><i id="bar"></i></div></div><div class="notice" id="notice" role="status">Connexion au classement partagé…</div></section>
+        <section class="card pad"><h3>Règle du jeu</h3><p>Un nouvel indice apparaît chaque jour, vous avez une semaine pour découvrir le thème. Une réponse exacte atteint 100°.</p></section>
+      </aside>
+    </main>
+    <section class="tables"><div class="card pad"><h2>Classement</h2><div id="leaders"></div></div><div class="card pad"><h2>Mes dernières propositions</h2><div class="history" id="history"></div><p class="notice">Cet historique est stocké uniquement dans ce navigateur.</p></div></section>
+    <footer><span>Team Halloween · Milestone Advisory</span><span>02 · 11</span></footer>
+  </div>
+  <script src="config.js"></script>
+  <script src="dictionary.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="game.js"></script>
+</body>
+</html>
