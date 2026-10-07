@@ -16,12 +16,12 @@ window.GAME_CONFIG = {
     revealMessage: "La réponse était : Día de los Muertos."
   },
   clues: [
-    { date: "2026-10-09", text: "Ce qui disparaît du regard ne disparaît pas toujours du monde." },
-    { date: "2026-10-10", text: "Les morts sont parfois plus présents que les vivants." },
-    { date: "2026-10-11", text: "Les squelettes dansent dans la nuit." },
-    { date: "2026-10-12", text: "Le orange une belle couleur." },
-    { date: "2026-10-13", text: "Les fantômes viennent nous hanter" },
-    { date: "2026-10-14", text: "La frontière est plus fine lorsque novembre commence." },
+    { date: "2026-10-09", text: "Orange est une belle couleur." },
+    { date: "2026-10-10", text: "Mon plus beau jour tient en deux dates : le 1er pour les petits, le 2 pour les grands." },
+    { date: "2026-10-11", text: "J'apparais dans une scène d'action mythique de James Bond." },
+    { date: "2026-10-12", text: "Une guitare magique et un voyage interdit chez les morts." },
+    { date: "2026-10-13", text: "Les âmes des défunts côtoient celles des vivants" },
+    { date: "2026-10-14", text: "Je suis inscrit au patrimoine culturel immatériel de l'UNESCO." },
     { date: "2026-10-15", text: "La réponse est dans la date." }
   ],
   labels: [
